@@ -1,6 +1,6 @@
 # LaTeX XDV Viewer
 
-A native macOS viewer for `.tex` and `.xdv` files, with a normal app menu and in-window rendering controls.
+A small native macOS tool for fast viewing while editing LaTeX, with support for `.tex` and `.xdv` files plus in-window rendering controls. It can speed up preview generation by skipping figures in draft mode, and by rendering through SVG instead of PDF when that is faster.
 
 It works by:
 
