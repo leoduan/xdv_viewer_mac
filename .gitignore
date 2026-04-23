@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+.build/
+.xdv-viewer-build/
+.xdv-viewer-draft-*.tex
+.xdv-viewer-draft-*.aux
+.xdv-viewer-draft-*.fdb_latexmk
+
+# Local app bundle / binaries
+XDVNativeViewer.app/
+
+# Generated TeX artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.synctex.gz
+*.xdv
+
+# Generated render output
+page-*.svg

@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\title{XDV Viewer Smoke Test}
+\author{Codex}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+This sample document is here so the viewer can be exercised quickly.
+
+\section*{Why XDV?}
+XeLaTeX writes an \texttt{.xdv} file before converting to PDF. This viewer opens
+that intermediate output directly, which is handy when you want to inspect the
+layout stage of the build pipeline.
+
+\newpage
+
+\section*{Second Page}
+Navigation, zoom, and reload are easier to test with more than one page.
+
+\end{document}
