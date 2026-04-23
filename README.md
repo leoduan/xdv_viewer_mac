@@ -74,6 +74,22 @@ Optional startup flags:
 - `--synctex-code`: start with VS Code as reverse-lookup target
 - `--reverse-command "..."`: override the editor dropdown with a custom command template
 
+## Release App
+
+Build a release `.app` bundle with:
+
+```bash
+./scripts/build-release-app.sh
+```
+
+The packaged app is written to:
+
+```text
+.build/release/XDVNativeViewer.app
+```
+
+This creates an unsigned local release bundle suitable for direct launch, ad hoc sharing, or later codesigning/notarization.
+
 ## Browser fallback
 
 If you still want the old browser-based viewer:
